@@ -1,2 +1,5 @@
-# ericsalerno.github.io
-It's kind of like a website...
+# Eric's Website
+
+https://www.ericsalerno.com/
+
+Not much to read here, sorry. This is just a github page on my vanity domain.
