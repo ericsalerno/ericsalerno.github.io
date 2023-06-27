@@ -39,7 +39,7 @@ $(document).ready(function() {
         $('body').ihavecookies(options, 'reinit');
     });
 
-    var cookieControl = JSON.parse(Cookies.get('cookieControlPrefs') || "['analytics']");
+    var cookieControl = JSON.parse(Cookies.get('cookieControlPrefs') || '["analytics","preferences","marketing"]');
     var disallowAnalyticsCookies = cookieControl.includes('analytics') === false;
 
     initializeGa4(disallowAnalyticsCookies);
